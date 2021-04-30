@@ -7,7 +7,7 @@
 
     <include layout="@layout/layout_simple_toolbar" />
 
-    <com.alphawallet.app.widget.FunctionButtonBar
+    <com.metrowallet.app.widget.FunctionButtonBar
         android:layout_alignParentBottom="true"
         android:id="@+id/layoutButtons"
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                     android:layout_marginTop="@dimen/dp16"
                     android:text="@string/value" />
 
-                <com.alphawallet.app.widget.ChainName
+                <com.metrowallet.app.widget.ChainName
                     android:id="@+id/chain_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                 android:layout_marginTop="@dimen/dp16"
                 android:text="@string/subtitle_transaction_hash_num" />
 
-            <com.alphawallet.app.widget.CopyTextView
+            <com.metrowallet.app.widget.CopyTextView
                 android:id="@+id/txn_hash"
                 style="@style/TransactionDetailsCopyTextStyle"
                 android:layout_width="match_parent"
@@ -147,7 +147,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/subtitle_from" />
 
-            <com.alphawallet.app.widget.CopyTextView
+            <com.metrowallet.app.widget.CopyTextView
                 android:id="@+id/from"
                 style="@style/TransactionDetailsCopyTextStyle"
                 android:layout_width="match_parent"
@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/subtitle_to" />
 
-            <com.alphawallet.app.widget.CopyTextView
+            <com.metrowallet.app.widget.CopyTextView
                 android:id="@+id/to"
                 style="@style/TransactionDetailsCopyTextStyle"
                 android:layout_width="match_parent"

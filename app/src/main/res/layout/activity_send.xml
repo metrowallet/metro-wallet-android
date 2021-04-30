@@ -40,7 +40,7 @@
                     android:textStyle="bold"
                     android:text="" />
 
-                <com.alphawallet.app.widget.InputAmount
+                <com.metrowallet.app.widget.InputAmount
                     android:id="@+id/input_amount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                     custom:show_allFunds="true"
                     android:visibility="visible"/>
 
-                <com.alphawallet.app.widget.InputAddress
+                <com.metrowallet.app.widget.InputAddress
                     android:id="@+id/input_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             </LinearLayout>
         </ScrollView>
 
-        <com.alphawallet.app.widget.FunctionButtonBar
+        <com.metrowallet.app.widget.FunctionButtonBar
             android:layout_alignParentBottom="true"
             android:id="@+id/layoutButtons"
             android:layout_width="match_parent"

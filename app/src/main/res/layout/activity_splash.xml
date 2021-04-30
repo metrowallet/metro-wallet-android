@@ -27,7 +27,7 @@
             android:textSize="26sp"
             android:textColor="@color/text_black"
             android:gravity="center_horizontal"
-            android:text="@string/welcome_to_alphawallet"/>
+            android:text="@string/welcome_to_metrowallet"/>
 
     </LinearLayout>
 

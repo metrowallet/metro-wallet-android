@@ -48,34 +48,34 @@
 
     </RelativeLayout>
 
-    <com.alphawallet.app.widget.BalanceDisplayWidget
+    <com.metrowallet.app.widget.BalanceDisplayWidget
         android:id="@+id/balance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.alphawallet.app.widget.AddressDetailView
+    <com.metrowallet.app.widget.AddressDetailView
         android:id="@+id/requester"
         android:visibility="gone"
         custom:label="@string/requester_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.alphawallet.app.widget.GasWidget
+    <com.metrowallet.app.widget.GasWidget
         android:id="@+id/gas_widgetx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.alphawallet.app.widget.TransactionDetailWidget
+    <com.metrowallet.app.widget.TransactionDetailWidget
         android:id="@+id/detail_widget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.alphawallet.app.widget.AddressDetailView
+    <com.metrowallet.app.widget.AddressDetailView
         android:id="@+id/recipient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.alphawallet.app.widget.AmountDisplayWidget
+    <com.metrowallet.app.widget.AmountDisplayWidget
         android:id="@+id/amount_display"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
@@ -85,12 +85,12 @@
         android:layout_height="1dp"
         android:background="@color/mercury" />
 
-    <com.alphawallet.app.widget.ConfirmationWidget
+    <com.metrowallet.app.widget.ConfirmationWidget
         android:id="@+id/confirmation_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.alphawallet.app.widget.FunctionButtonBar
+    <com.metrowallet.app.widget.FunctionButtonBar
         android:id="@+id/layoutButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.alphawallet.app.widget.GasSliderViewLegacy
+        <com.metrowallet.app.widget.GasSliderViewLegacy
             android:id="@+id/gasSliderView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.alphawallet.app.widget.FunctionButtonBar
+        <com.metrowallet.app.widget.FunctionButtonBar
             android:layout_alignParentBottom="true"
             android:id="@+id/layoutButtons"
             android:layout_width="match_parent"

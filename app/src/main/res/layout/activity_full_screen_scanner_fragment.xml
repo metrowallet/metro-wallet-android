@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/scanner_fragment"
-        android:name="com.alphawallet.app.ui.zxing.FullScannerFragment"
+        android:name="com.metrowallet.app.ui.zxing.FullScannerFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar1" />

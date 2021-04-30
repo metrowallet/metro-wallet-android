@@ -50,13 +50,13 @@
 
     </RelativeLayout>
 
-    <com.alphawallet.app.widget.AddressDetailView
+    <com.metrowallet.app.widget.AddressDetailView
         android:id="@+id/requester"
         custom:label="@string/requester_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.alphawallet.app.widget.SignDataWidget
+    <com.metrowallet.app.widget.SignDataWidget
         android:id="@+id/sign_widget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -66,12 +66,12 @@
         android:layout_height="1dp"
         android:background="@color/mercury" />
 
-    <com.alphawallet.app.widget.ConfirmationWidget
+    <com.metrowallet.app.widget.ConfirmationWidget
         android:id="@+id/confirmation_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.alphawallet.app.widget.FunctionButtonBar
+    <com.metrowallet.app.widget.FunctionButtonBar
         android:id="@+id/layoutButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

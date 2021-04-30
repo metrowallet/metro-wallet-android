@@ -16,7 +16,7 @@
         android:focusableInTouchMode="true"
         android:visibility="visible">
 
-        <com.alphawallet.app.widget.FunctionButtonBar
+        <com.metrowallet.app.widget.FunctionButtonBar
             android:layout_alignParentBottom="true"
             android:id="@+id/layoutButtons"
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"/>
 
-            <com.alphawallet.app.widget.ActivityHistoryList
+            <com.metrowallet.app.widget.ActivityHistoryList
                 android:id="@+id/history_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />

@@ -48,7 +48,7 @@
         android:lineSpacingMultiplier="1.3"
         android:paddingStart="40dp"
         android:paddingEnd="40dp"
-        android:text="@string/alphawallet_never_ask"
+        android:text="@string/metrowallet_never_ask"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="@dimen/sp18"
@@ -57,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scammer_image" />
 
-    <com.alphawallet.app.widget.FunctionButtonBar
+    <com.metrowallet.app.widget.FunctionButtonBar
         android:id="@+id/layoutButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

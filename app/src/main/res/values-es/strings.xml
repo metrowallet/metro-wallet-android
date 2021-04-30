@@ -97,7 +97,7 @@
     <string name="error_export">Error al exportar el monedero</string>
     <string name="error_fail_load_tokens">Error al cargar la lista de tokens</string>
     <string name="error_create_wallet">Error al crear un monedero</string>
-    <string name="app_name">AlphaWallet</string>
+    <string name="app_name">MetroWallet</string>
     <string name="all">Todo</string>
     <string name="currency">Monedas</string>
     <string name="advanced">Opciones avanzadas</string>
@@ -205,7 +205,7 @@
     <string name="ethereum_blockchain">Cadena de bloques de Ethereum</string>
     <string name="issuer">Emisor:</string>
     <string name="root_title">SEGURIDAD DEL DISPOSITIVO COMPROMETIDA</string>
-    <string name="root_body">Tu teléfono está rooteado, pero las claves siguen estando protegidas por el cifrado \"secure enclave\" de Android. El vector de ataque vendría de una aplicación de teclado o un visor del portapapeles que obtendría tu clave mientras la introduces. AlphaWallet hace todo lo posible para mitigar este riesgo desactivando las sugerencias automáticas del teclado. Si ejecutas el root, te recomendamos que solo utilices aplicaciones de teclado convencionales, que uses una aplicación de antivirus de buena calidad y que emplees una herramienta de root de código abierto respetable como Magisk o SuperSU para limitar el acceso a los privilegios de root. En última instancia, la seguridad de las claves es tu responsabilidad.</string>
+    <string name="root_body">Tu teléfono está rooteado, pero las claves siguen estando protegidas por el cifrado \"secure enclave\" de Android. El vector de ataque vendría de una aplicación de teclado o un visor del portapapeles que obtendría tu clave mientras la introduces. MetroWallet hace todo lo posible para mitigar este riesgo desactivando las sugerencias automáticas del teclado. Si ejecutas el root, te recomendamos que solo utilices aplicaciones de teclado convencionales, que uses una aplicación de antivirus de buena calidad y que emplees una herramienta de root de código abierto respetable como Magisk o SuperSU para limitar el acceso a los privilegios de root. En última instancia, la seguridad de las claves es tu responsabilidad.</string>
     <string name="contact_us">¿Sigues necesitando ayuda? Contacta con nosotros</string>
     <string name="confirm_sale_title">¿Confirmar venta?</string>
     <string name="dialog_cancel_back">Cancelar y volver</string>
@@ -270,7 +270,7 @@
     <string name="erc875">ERC 875</string>
     <string name="erc875legacy">ERC 875*</string>
     <string name="what_is_eth">Ethereum es una plataforma informática y un sistema operativo de código abierto, público, de distribución basada en las cadenas de bloques, con funcionalidad de contratos inteligentes (scripting). Es la infraestructura de los productos y servicios de cadena de bloques.\n\nEl ETH/Ether es una criptomoneda cuya cadena de bloques la genera la plataforma Ethereum. El Ether se puede transferir entre cuentas y se puede utilizar para compensar a los nodos mineros participantes por los cálculos realizados. Ethereum proporciona una máquina virtual de Turing completo descentralizada, la Ethereum Virtual Machine (EVM), que puede ejecutar scripts usando una red internacional de nodos públicos. El \"gas\", un mecanismo interno de fijación de precios para las transacciones, se emplea para mitigar el spam y asignar los recursos en la red.</string>
-    <string name="why_alphawallet_eth">En la actualidad, Ethereum es la mayor y mejor cadena de bloques para el desarrollo de aplicaciones y servicios de contratos inteligentes. AlphaWallet comienza apoyando la cadena de bloques de Ethereum y ayuda a mejorar su tecnología.</string>
+    <string name="why_metrowallet_eth">En la actualidad, Ethereum es la mayor y mejor cadena de bloques para el desarrollo de aplicaciones y servicios de contratos inteligentes. MetroWallet comienza apoyando la cadena de bloques de Ethereum y ayuda a mejorar su tecnología.</string>
     <string name="how_i_get_money">Puedes convertir el Ethereum en dinero fíat y transferirlo a tu cuenta bancaria a través de cualquier plataforma de intercambio de criptomonedas.</string>
     <string name="how_i_transfer_into_wallet">Puedes proporcionar la dirección de tu monedero al remitente. Pueden transferirte ETH con la dirección de tu monedero.</string>
     <string name="ticket_import_valid">Tickets válidos para la importación</string>
@@ -324,15 +324,15 @@
     <string name="ticket_not_valid">Token no válido</string>
     <string name="ticket_not_valid_body">No hay ningún contrato válido en esta dirección en esta red. El contrato podría haber sido rescindido o puede que se encuentre en una red diferente. Prueba a cambiar a \"Ropsten (Test)\".</string>
     <string name="new_version_title">Actualización disponible</string>
-    <string name="new_version">La actualización de la versión está disponible en el sitio web de AlphaWallet.</string>
+    <string name="new_version">La actualización de la versión está disponible en el sitio web de MetroWallet.</string>
     <string name="confirm_update">Descargar e instalar</string>
     <string name="dialog_later">Más tarde</string>
-    <string name="alphawallet_update">Actualización de AlphaWallet</string>
+    <string name="metrowallet_update">Actualización de MetroWallet</string>
     <string name="install_error">No ha sido posible actualizar la aplicación</string>
     <string name="require_write_permission">No se ha concedido permiso de escritura en el almacenamiento.</string>
     <string name="dialog_not_again">Omitir hasta la próxima versión</string>
     <string name="enable_xml_override_dir">Activar la sustitución de XML</string>
-    <string name="explain_xml_override">Al Activar la sustitución de XML se creará un directorio \"AlphaWallet\" en el almacenamiento de tu teléfono. Los archivos de configuración del token (XML) se pueden introducir en este directorio y sustituirán a las configuraciones predeterminadas o de red del token.</string>
+    <string name="explain_xml_override">Al Activar la sustitución de XML se creará un directorio \"MetroWallet\" en el almacenamiento de tu teléfono. Los archivos de configuración del token (XML) se pueden introducir en este directorio y sustituirán a las configuraciones predeterminadas o de red del token.</string>
     <string name="ask_user_about_xml_override">¿Deseas activar el directorio de sustitución de la configuración del token?</string>
     <string name="label_contract">Contrato</string>
     <string name="toolbar_header_browser">Navegador DApp</string>
@@ -425,7 +425,7 @@
     <string name="select_active_networks">Seleccionar redes activas</string>
     <string name="collectibles">Coleccionables</string>
     <string name="token_function">Función del token</string>
-    <string name="channel_description">Canal de notificación de AlphaWallet</string>
+    <string name="channel_description">Canal de notificación de MetroWallet</string>
     <string name="error_camera_permission_denied">Se ha denegado el permiso para utilizar la cámara.</string>
     <string name="confirm_tokenscript_transaction">Confirmar la transacción de TokenScript</string>
     <string name="tokenscript_send_native">Enviar %1$s %2$s a %3$s (%4$s)</string>
@@ -464,7 +464,7 @@
     <string name="set_keystore_password">Establecer la contraseña del almacén de claves</string>
     <string name="keystore_loss_warning">NOTA: Debes recordar tu contraseña. No la almacenamos en ningún sitio. El almacén de claves siempre está cifrado, de lo contrario, quien la tenga puede obtener el dinero.</string>
     <string name="save_keystore">Guardar almacén de claves</string>
-    <string name="do_not_share">No compartas tu copia de seguridad. Los miembros del equipo de AlphaWallet nunca te la pedirán.</string>
+    <string name="do_not_share">No compartas tu copia de seguridad. Los miembros del equipo de MetroWallet nunca te la pedirán.</string>
     <string name="enter_seed_phrase">Introduce la frase semilla</string>
     <string name="seed_phrase_conversion_message">Si tu frase semilla no está en inglés, pásala a inglés utilizando una herramienta como esta https://iancoleman.io/bip39/</string>
     <string name="bad_seed_phrase">Frase de recuperación no válida. Revísala e inténtalo de nuevo.</string>
@@ -503,7 +503,7 @@
     <string name="back_up_now">¡Hacer una copia de seguridad ahora!</string>
     <string name="key_secure">No compartas tu clave</string>
     <string name="lock_key_upgrade">Bloquea tu frase semilla para aumentar la seguridad</string>
-    <string name="upgrade_key_security_detail">La seguridad de AlphaWallet se ha mejorado al máximo. Bloquea tu frase semilla mediante biometría.</string>
+    <string name="upgrade_key_security_detail">La seguridad de MetroWallet se ha mejorado al máximo. Bloquea tu frase semilla mediante biometría.</string>
     <string name="action_upgrade_key">Mejorar la seguridad de las claves</string>
     <string name="backup_wallet_detail">Te recomendamos encarecidamente que hagas una copia de seguridad de tu monedero.</string>
     <string name="skip_upgrade">Omitir mejora</string>
@@ -515,7 +515,7 @@
     <string name="provide_authentication">Proporcionar autenticación para crear la clave</string>
     <string name="import_error">Error de importación. Intenta importarlo de nuevo.</string>
     <string name="watch_exists">El monedero %1$s ya está completo - no es necesario observarlo</string>
-    <string name="welcome_to_alphawallet">Bienvenido a AlphaWallet</string>
+    <string name="welcome_to_metrowallet">Bienvenido a MetroWallet</string>
     <string name="lock_seed_phrase">Bloquear frase semilla</string>
     <string name="no_key">No se ha encontrado ninguna clave</string>
     <string name="pending_transaction">Transacción pendiente...</string>
@@ -590,7 +590,7 @@
     <string name="your_wallets">Tus monederos</string>
     <string name="action_copy">Copiar</string>
     <string name="title_version_support_warning">Actualización importante</string>
-    <string name="message_version_support_warning">A partir de la versión 3.0, AlphaWallet ya no será compatible con dispositivos que ejecuten Android 6.0 o inferior.</string>
+    <string name="message_version_support_warning">A partir de la versión 3.0, MetroWallet ya no será compatible con dispositivos que ejecuten Android 6.0 o inferior.</string>
     <string name="hide_notification">Ocultar notificación</string>
     <string name="card_view_not_found_error">%1$s no encontrado</string>
     <string name="tokenscript_management">Gestión de TokenScript</string>
@@ -601,12 +601,12 @@
     <string name="fast">Rápida</string>
     <string name="label_estimated_transaction_time">Tiempo estimado de transacción</string>
     <string name="minutes_0">0 min</string>
-    <string name="created_aw_directory">Directorio AlphaWallet creado</string>
-    <string name="created_aw_directory_detail">Directorio AlphaWallet creado. Suelta scripts en este directorio para usar tus scripts. Consulta tokenscript.org para obtener más detalles sobre cómo crear fácilmente una interfaz segura y útil para tus tokens.</string>
+    <string name="created_aw_directory">Directorio MetroWallet creado</string>
+    <string name="created_aw_directory_detail">Directorio MetroWallet creado. Suelta scripts en este directorio para usar tus scripts. Consulta tokenscript.org para obtener más detalles sobre cómo crear fácilmente una interfaz segura y útil para tus tokens.</string>
     <string name="title_no_need_to_watch">Ya se está observando</string>
     <string name="error_while_signing_transaction">Se ha producido un error al firmar la transacción. Vuelve a importar la clave para este monedero.</string>
     <string name="error_not_whitelisted">Página no incluida en la lista blanca</string>
-    <string name="explain_not_whitelisted">TokenScript está intentando redirigir a una página no incluida en la lista blanca %1$s. Si eres el propietario de este sitio, envía una solicitud de extracción al repositorio de AlphaWallet para añadir la página a la lista blanca.</string>
+    <string name="explain_not_whitelisted">TokenScript está intentando redirigir a una página no incluida en la lista blanca %1$s. Si eres el propietario de este sitio, envía una solicitud de extracción al repositorio de MetroWallet para añadir la página a la lista blanca.</string>
     <string name="token_spec">%1$s (%2$s)</string>
     <string name="check_function_availability">Disponibilidad de la función</string>
     <string name="invalid_parameters">Parámetro no válido durante la llamada a la transacción de TokenScript. Revisa las entradas.</string>
@@ -694,7 +694,7 @@
     <string name="new_balance">(Nuevo: %1$s %2$s)</string>
     <string name="set_speed_title">Velocidad de la Transacción</string>
     <string name="gas_price_widget">Precio del gas: %1$s</string>
-    <string name="gas_message">Fees are based on current Ethereum blockchain network load. They are not up to AlphaWallet. AlphaWallet uses the gasnow.org live oracle and updates the gas prices every 15 seconds.</string>
+    <string name="gas_message">Fees are based on current Ethereum blockchain network load. They are not up to MetroWallet. MetroWallet uses the gasnow.org live oracle and updates the gas prices every 15 seconds.</string>
     <string name="set_your_speed">Establece tu propio</string>
     <string name="nonce_optional">Nonce (opcional)</string>
     <string name="calc_gas_limit">Calcular el Límite de gas</string>
@@ -715,7 +715,7 @@
     <string name="deposit">Deposit</string>
     <string name="body_low_gas">Gas price is set below the \'slow\' speed.</string>
     <string name="low_gas_setting">Gas Fee Might Be Too Low</string>
-    <string name="body_high_gas">You have set a really high gas fee. Please make sure this is not a mistake. AlphaWallet uses gasnow.org live oracle and updates the gas price every 15 sec.</string>
+    <string name="body_high_gas">You have set a really high gas fee. Please make sure this is not a mistake. MetroWallet uses gasnow.org live oracle and updates the gas price every 15 sec.</string>
     <string name="high_gas_setting">High Fee Warning!</string>
     <string name="speed_too_low">Too Low</string>
     <string name="speed_high_gas">High Fee</string>
@@ -731,7 +731,7 @@
     <string name="disconnect">Disconnect</string>
     <string name="keep_connect">Keep Connected</string>
     <string name="beware_of_scammers">Beware of scammers!\nDon\'t share seed phrase.</string>
-    <string name="alphawallet_never_ask">AlphaWallet will NEVER ask about your seed phrase (especially on Telegram).</string>
+    <string name="metrowallet_never_ask">MetroWallet will NEVER ask about your seed phrase (especially on Telegram).</string>
     <string name="your_seed_phrase">Your seed phrase (do not share with anyone)</string>
     <string name="hide_seed_text">OK, Hide Seed Phrase</string>
     <string name="ens_not_match_wallet">ENS Name does not match wallet address</string>

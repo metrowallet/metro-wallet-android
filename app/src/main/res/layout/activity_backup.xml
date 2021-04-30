@@ -53,7 +53,7 @@
             android:textColor="@color/black"
             android:textSize="17sp" />
 
-        <com.alphawallet.app.widget.FunctionButtonBar
+        <com.metrowallet.app.widget.FunctionButtonBar
             android:id="@+id/layoutButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

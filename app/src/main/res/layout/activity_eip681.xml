@@ -61,7 +61,7 @@
                 android:orientation="vertical"
                 android:visibility="visible">
 
-                <com.alphawallet.app.widget.InputAmount
+                <com.metrowallet.app.widget.InputAmount
                     android:id="@+id/input_amount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
 
         </LinearLayout>
 
-        <com.alphawallet.app.widget.FunctionButtonBar
+        <com.metrowallet.app.widget.FunctionButtonBar
             android:layout_alignParentBottom="true"
             android:id="@+id/layoutButtons"
             android:layout_width="match_parent"

@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.alphawallet.app.widget.NotificationView
+            <com.metrowallet.app.widget.NotificationView
                 android:id="@+id/notification"
                 android:layout_width="match_parent"
                 android:background="@drawable/background_bottom_border"

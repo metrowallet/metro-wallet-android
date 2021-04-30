@@ -45,7 +45,7 @@
             android:layout_height="1dp"
             android:background="@color/mercury" />
 
-        <com.alphawallet.app.widget.NotificationView
+        <com.metrowallet.app.widget.NotificationView
             android:id="@+id/notification"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-    <com.alphawallet.app.widget.ProgressView
+    <com.metrowallet.app.widget.ProgressView
         android:id="@+id/progress_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -76,7 +76,7 @@
         android:layout_alignParentEnd="true"
         tools:visibility="gone" />
 
-    <com.alphawallet.app.widget.SystemView
+    <com.metrowallet.app.widget.SystemView
         android:id="@+id/system_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

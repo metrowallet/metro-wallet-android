@@ -36,7 +36,7 @@
                 android:textColor="@color/text_black"
                 android:textSize="25sp" />
 
-            <com.alphawallet.app.widget.InputAddress
+            <com.metrowallet.app.widget.InputAddress
                 android:id="@+id/input_address_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,14 +46,14 @@
                 custom:ens="false"
                 android:layout_marginBottom="15dp" />
 
-            <com.alphawallet.app.widget.InputView
+            <com.metrowallet.app.widget.InputView
                 android:id="@+id/input_symbol"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
                 custom:label="@string/hint_contract_symbol"/>
 
-            <com.alphawallet.app.widget.InputView
+            <com.metrowallet.app.widget.InputView
                 android:id="@+id/input_decimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -61,14 +61,14 @@
                 custom:inputType="number"
                 custom:label="@string/hint_contract_decimals" />
 
-            <com.alphawallet.app.widget.InputView
+            <com.metrowallet.app.widget.InputView
                 android:id="@+id/input_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
                 custom:label="@string/hint_contract_name" />
 
-            <com.alphawallet.app.widget.InputView
+            <com.metrowallet.app.widget.InputView
                 android:id="@+id/input_token_type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
         </LinearLayout>
     </ScrollView>
 
-    <com.alphawallet.app.widget.FunctionButtonBar
+    <com.metrowallet.app.widget.FunctionButtonBar
         android:id="@+id/layoutButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

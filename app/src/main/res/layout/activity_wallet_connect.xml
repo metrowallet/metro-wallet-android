@@ -23,7 +23,7 @@
             android:layout_height="36dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/dp16"
-            android:src="@mipmap/ic_alpha" />
+            android:src="@mipmap/ic_metro" />
 
         <TextView
             android:id="@+id/peer_name"
@@ -112,7 +112,7 @@
                     android:textSize="12sp" />
             </LinearLayout>
 
-            <com.alphawallet.app.widget.ChainName
+            <com.metrowallet.app.widget.ChainName
                 android:id="@+id/chain_name"
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginEnd="6dp"
@@ -166,7 +166,7 @@
         android:layout_centerInParent="true"
         android:indeterminateTint="@color/azure" />
 
-    <com.alphawallet.app.widget.FunctionButtonBar
+    <com.metrowallet.app.widget.FunctionButtonBar
         android:id="@+id/layoutButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

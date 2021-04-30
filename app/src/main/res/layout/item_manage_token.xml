@@ -21,7 +21,7 @@
             android:layout_marginStart="@dimen/dp20"
             android:orientation="horizontal">
 
-        <com.alphawallet.app.widget.TokenIcon
+        <com.metrowallet.app.widget.TokenIcon
             android:id="@+id/token_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

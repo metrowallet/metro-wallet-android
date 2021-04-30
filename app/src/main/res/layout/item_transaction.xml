@@ -11,7 +11,7 @@
     android:padding="@dimen/dp8"
     android:minHeight="80dp">
 
-    <com.alphawallet.app.widget.TokenIcon
+    <com.metrowallet.app.widget.TokenIcon
         android:id="@+id/token_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                 android:layout_gravity="center"
                 android:orientation="horizontal">
 
-                <com.alphawallet.app.widget.ChainName
+                <com.metrowallet.app.widget.ChainName
                     android:id="@+id/chain_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

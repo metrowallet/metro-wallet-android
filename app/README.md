@@ -1,4 +1,4 @@
-# AlphaWallet - Ultimate Ethereum Wallet for Android
+# MetroWallet - Ultimate Ethereum Wallet for Android
 
 [![Build Status](https://travis-ci.com/James-Sangalli/alpha-wallet.svg?token=J2hT1s5bGKT1npuPugWb&branch=master)](https://travis-ci.com/James-Sangalli/alpha-wallet.svg?token=J2hT1s5bGKT1npuPugWb&branch=master)
 [![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)](https://github.com/fastlane/fastlane/blob/master/LICENSE)
@@ -18,7 +18,7 @@ components. This project directory is specific for the Android app.
 # Signing the apk file
 
 This section is intended for release engineering team in
-AlphaWallet.com. The following instruction is mostly based on this
+MetroWallet.com. The following instruction is mostly based on this
 tutorial adapted to the special device we have from Netrust, the
 Singapore accredited CA.
 

@@ -9,7 +9,7 @@
       "login": "James-Sangalli",
       "name": "James Sangalli",
       "avatar_url": "https://avatars0.githubusercontent.com/u/16630514?v=4",
-      "profile": "https://www.alphawallet.com",
+      "profile": "https://www.metrowallet.com",
       "contributions": [
         "code"
       ]
@@ -18,7 +18,7 @@
       "login": "zhangzhongnan928",
       "name": "Victor Zhang",
       "avatar_url": "https://avatars2.githubusercontent.com/u/33795543?v=4",
-      "profile": "https://alphawallet.com/",
+      "profile": "https://metrowallet.com/",
       "contributions": [
         "ideas"
       ]
@@ -42,10 +42,10 @@
       ]
     },
     {
-      "login": "tomekalphawallet",
+      "login": "tomekmetrowallet",
       "name": "Tomek Nowak",
       "avatar_url": "https://avatars1.githubusercontent.com/u/51817359?v=4",
-      "profile": "https://github.com/tomekalphawallet",
+      "profile": "https://github.com/tomekmetrowallet",
       "contributions": [
         "design"
       ]
@@ -277,8 +277,8 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "alpha-wallet-android",
-  "projectOwner": "AlphaWallet",
+  "projectName": "metro-wallet-android",
+  "projectOwner": "MetroWallet",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true

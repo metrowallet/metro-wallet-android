@@ -10,7 +10,7 @@
 #endif
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_repository_EthereumNetworkBase_getAmberDataKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_repository_EthereumNetworkBase_getAmberDataKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, amberdataKey);
@@ -21,7 +21,7 @@ Java_com_alphawallet_app_repository_EthereumNetworkBase_getAmberDataKey( JNIEnv*
 }
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_repository_EthereumNetworkBase_getInfuraKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_repository_EthereumNetworkBase_getInfuraKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, infuraKey);
@@ -32,7 +32,7 @@ Java_com_alphawallet_app_repository_EthereumNetworkBase_getInfuraKey( JNIEnv* en
 }
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_service_TickerService_getAmberDataKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_service_TickerService_getAmberDataKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, amberdataKey);
@@ -43,7 +43,7 @@ Java_com_alphawallet_app_service_TickerService_getAmberDataKey( JNIEnv* env, job
 }
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_service_TickerService_getCMCKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_service_TickerService_getCMCKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, cmcKey);
@@ -54,7 +54,7 @@ Java_com_alphawallet_app_service_TickerService_getCMCKey( JNIEnv* env, jobject t
 }
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_service_AnalyticsService_getAnalyticsKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_service_AnalyticsService_getAnalyticsKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, mixpanelKey);
@@ -65,7 +65,7 @@ Java_com_alphawallet_app_service_AnalyticsService_getAnalyticsKey( JNIEnv* env, 
 }
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_viewmodel_Erc20DetailViewModel_getRampKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_viewmodel_Erc20DetailViewModel_getRampKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, rampKey);
@@ -76,7 +76,7 @@ Java_com_alphawallet_app_viewmodel_Erc20DetailViewModel_getRampKey( JNIEnv* env,
 }
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_repository_OnRampRepository_getRampKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_repository_OnRampRepository_getRampKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, rampKey);
@@ -87,7 +87,7 @@ Java_com_alphawallet_app_repository_OnRampRepository_getRampKey( JNIEnv* env, jo
 }
 
 JNIEXPORT jstring JNICALL
-Java_com_alphawallet_app_repository_EthereumNetworkBase_getSecondaryInfuraKey( JNIEnv* env, jobject thiz )
+Java_com_metrowallet_app_repository_EthereumNetworkBase_getSecondaryInfuraKey( JNIEnv* env, jobject thiz )
 {
 #if (HAS_KEYS == 1)
     return getDecryptedKey(env, secondaryInfuraKey);

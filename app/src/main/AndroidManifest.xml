@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.alphawallet.app"
+    package="com.metrowallet.app"
     android:targetSandboxVersion="1">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -235,7 +235,7 @@
             android:name=".ui.FunctionActivity"
             android:label="@string/token_function" />
 
-        <!--<service android:name="AlphaWalletFirebaseMessagingService">-->
+        <!--<service android:name="MetroWalletFirebaseMessagingService">-->
         <!--<intent-filter>-->
         <!--<action android:name="com.google.firebase.MESSAGING_EVENT" />-->
         <!--</intent-filter>-->
@@ -247,7 +247,7 @@
 
         <!--<meta-data-->
         <!--android:name="com.google.firebase.messaging.default_notification_icon"-->
-        <!--android:resource="@mipmap/ic_alpha" />-->
+        <!--android:resource="@mipmap/ic_metro" />-->
 
         <!--<meta-data-->
         <!--android:name="com.google.firebase.messaging.default_notification_color"-->
